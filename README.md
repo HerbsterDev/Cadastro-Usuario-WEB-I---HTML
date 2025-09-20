@@ -27,7 +27,11 @@ A estrutura desenvolvida inclui:
 
 ## 📂 Organização do Projeto
 
-* **index.html** → Página principal contendo o formulário de cadastro.  
+* **index.html** → Página principal contendo o formulário de cadastro.
+* **minhapagina.html** → Página do meu site pessoal.
+* **sobre.html** → Página contando sobre mim.
+* **meusprojetos** → Página dos meus projetos.
+* **contato.html** → Página de contato.
 
 ---
 
