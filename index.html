@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cadastro de Usuário</title>
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1>Cadastro de Usuário</h1>
+                <nav>
+                    <ul>
+                        <li><a href="./pages/minhapagina.html">Página Principal</a></li>
+                        <li><a href="./pages/sobre.html">Sobre Mim</a></li>
+                        <li><a href="./pages/meusprojetos.html">Meus Projetos</a></li>
+                        <li><a href="./pages/contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <section>
+            <h2>Formulário de Cadastro</h2>
+            <form action="/enviar_dados" method="post">
+
+                <label for="nome">Nome Completo: <br></label>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="email">Email: <br></label>
+                <input type="text" id="email" name="email"><br><br>
+
+                <label for="senha">Senha: <br></label>
+                <input type="text" id="senha" name="senha"><br><br>
+
+                <label for="genero">Gênero: </label><br>
+                <select name="genero" id="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select><br><br>
+
+                
+                <label for="checkbox">Interesses:</label><br>
+                <input type="checkbox" name="" id=""> Programação <br> 
+                <input type="checkbox" name="" id=""> Design <br>
+                <input type="checkbox" name="" id=""> Música <br><br>
+
+                <label for="biografia">Biografia: </label><br>
+                <textarea name="biografia" id="biografia" rows="5" cols="40"></textarea><br><br>
+
+                <input type="submit" name="Enviar"><br><br>
+            </form>
+        </section>  
+        <footer>© 2025 Meu Site Pessoal</footer>
+    </body>
+</html>
